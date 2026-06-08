@@ -5,14 +5,16 @@
 }
 
 .pesquisa{
-    display: flex;
-    width: 500px;
-    height: 10px;
+    display:flex;
+    height: 50px;
+    width: 50vw;
+    border: 5px rgb(197, 0, 0);
+    background-color: aqua;
 }
 
 .container{
     background-color: rgb(1, 192, 250);
-    height: 100%;
+    height: 100vb;
 }
 
 mat-form-field {
@@ -23,7 +25,7 @@ mat-form-field {
     display: flex;
     margin-left: 50px;
     padding: 50px;
-    height: 80%;
+    height: auto;
     margin-right: 50px;
     background-color: white;
     margin-bottom: 50px;

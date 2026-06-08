@@ -1,19 +1,17 @@
 <div class="container">
     <div class="head">
         <h1>CADASTRO DISCENTES</h1>
-        <button mat-raised-button color="primary" [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
+        <button [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
     </div>
     <div class="areaCadastro">
         <div>
             <h4>Nome do Aluno</h4>
             <div class="pesquisa">
-                 <mat-form-field appearance="outline">
                 <input 
-                matInput
                 type="text" 
                 placeholder="Insira o nome" 
-                [(ngModel)]="termo"/>
-            </mat-form-field>
+                style="width: 50%; font-size: large; padding: 10px;"
+                />
             </div>
         </div>
     </div>
