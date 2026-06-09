@@ -1,0 +1,33 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.buttonCadastrar{
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+mat-form-field {
+  width: 30%;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+
+h4{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 5px;
+
+}

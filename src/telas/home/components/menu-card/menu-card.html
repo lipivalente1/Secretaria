@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="div-title" [style.background-color]="menu().cor">
+        <h2>{{menu().title}}</h2>
+    </div>
+    <div class="div-desc">
+        @for(desc of menu().desc; track $index){
+            <div class="div-text-desc">{{desc}}</div>
+        }
+    </div>
+</div>

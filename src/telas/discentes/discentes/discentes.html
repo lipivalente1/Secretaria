@@ -1,0 +1,23 @@
+<section>
+    <div class="head">
+        <h1>Discentes PPGF</h1>
+        <button mat-raised-button color="primary" [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
+    </div>
+    <div class="buttonCadastrar">
+        <button mat-raised-button color="primary" [routerLink]="['/cadastrarDiscente']">Cadastrar Novo Discente</button>
+    </div>
+    <div class="pesquisa">
+        <mat-form-field appearance="outline">
+            <input 
+            matInput
+            type="text" 
+            placeholder="Pesquisar..." 
+            [(ngModel)]="termo"
+        /> </mat-form-field>
+    </div>
+    <div class="infos">
+        <h4>Pendências: 0</h4>
+        <h4>Mestrandos Ativos: 0</h4>
+        <h4>Doutorandos Ativos: 0</h4>
+    </div>
+</section>
