@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.div-select{
+    margin-right: 15px;
+}
+
 .container{
     background-color: rgb(1, 192, 250);
     height: 100vb;
