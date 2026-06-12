@@ -12,6 +12,10 @@
     background-color: aqua;
 }
 
+.container-select{
+    display: flex;
+}
+
 .container{
     background-color: rgb(1, 192, 250);
     height: 100vb;
