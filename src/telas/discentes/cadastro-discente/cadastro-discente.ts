@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MATERIAL_MODULES } from '../../app/shared/material'
+import { MATERIAL_MODULES } from '../../../app/shared/material'
 import { RouterOutlet, RouterLink } from '@angular/router'
 
 @Component({

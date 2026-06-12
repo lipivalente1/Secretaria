@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { Discentes } from '../telas/discentes/discentes/discentes';
 import {Home} from '../telas/home/home';
-import { CadastroDiscente } from '../telas/cadastro-discente/cadastro-discente';
+import { CadastroDiscente } from '../telas/discentes/cadastro-discente/cadastro-discente'
 
 export const routes: Routes = [
     {

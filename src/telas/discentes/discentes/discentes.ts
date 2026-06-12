@@ -8,6 +8,7 @@ import { RouterOutlet, RouterLink} from '@angular/router';
   templateUrl: './discentes.html',
   styleUrl: './discentes.css',
 })
+
 export class Discentes {
   termo: string = '';
 }
