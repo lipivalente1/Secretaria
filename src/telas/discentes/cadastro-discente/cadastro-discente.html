@@ -1,7 +1,7 @@
 <div class="container">
     <div class="head">
         <h1>CADASTRO DISCENTE</h1>
-        <button [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
+        <button mat-raised-button color="primary" [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
     </div>
     <div class="areaCadastro">
         <div>
@@ -29,6 +29,13 @@
                 class="input-text"
                 />
             </div>
+             <div class="div-select">
+                    <div class="label-input">Orientador</div>
+                    <select style="height: 40px; font-size: 18px; padding-left: 5px;">
+                            <option>Van Sergio</option>
+                            <option>Danilo Teixeira Machado da Silva</option>
+                    </select>
+                </div>
             <div class="container-select">
                 <div class="div-select">
                     <div class="label-input">Data de Ingresso</div>

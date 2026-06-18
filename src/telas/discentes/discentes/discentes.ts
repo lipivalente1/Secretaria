@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MATERIAL_MODULES } from '../../../app/shared/material';
-import { RouterOutlet, RouterLink} from '@angular/router';
+import { RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-discentes',

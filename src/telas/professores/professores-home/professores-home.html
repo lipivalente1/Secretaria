@@ -1,0 +1,22 @@
+<div style="background-color: aqua; width: auto; height: 100vh;">
+    <div  style="display: flex; justify-content: center; align-items: center; height: 70px; background-color: aliceblue; font-family:cursive;">
+            <h1>PROFESSORES PPGF</h1>
+            <button mat-raised-button color="primary" [routerLink]="['/']" style="position: absolute; right: 40px;">Home</button>
+    </div>
+    <div>
+
+        <div style="display:flex; flex-direction: column;align-items: center; background-color: rgb(255, 255, 255); padding-left: 30px; padding-top: 30px;">
+            <button mat-raised-button color="primary" [routerLink]="['/']" style="margin-bottom: 20px;"> Cadastrar Docente </button>
+            <mat-form-field appearance="outline">
+                <input
+                        matInput
+                        type="text" 
+                        placeholder="Pesquise o nome do docente" 
+                        [(ngModel)]="nomeDocente"/>
+                </mat-form-field>   
+        </div>
+        <div style="width: auto; background-color: bisque; height:100%;">
+
+        </div>
+    </div>
+</div>
